@@ -184,7 +184,7 @@ async function checkHealth() {
   }
 }
 
-window.addEventListener("load", () => {
+addEventListener("load", () => {
   checkHealth();
   new DinoGame();
   console.log("Stage 2 complete: Canvas game with controls ready!");
